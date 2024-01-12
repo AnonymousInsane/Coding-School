@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achivements</title>
+    <style>
+        html {
+    min-height: 100%;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Prosto One', cursive;
+}
+
+header::before {
+    background-image: url(coming\ soon.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    content: "";
+    height: 60rem;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0.6;
+}
+
+nav::before {
+    background-color: black;
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    content: "";
+    opacity: 0.8;
+}
+nav{
+    z-index: 2;
+}
+#marque{
+    color: white;
+    background-color: black;
+    position: relative;
+    top: 64px;
+    opacity: 0.9;
+    font-size: 24px;
+    border: 1px solid white;
+    font-style: italic;
+    z-index: -1;
+}
+#logo {
+    height: 2em;
+    border: 1px none;
+    border-radius: 10%;
+    position: relative;
+    top: -6px;
+}
+
+header>nav>ul {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+}
+
+header>nav>ul>li {
+    list-style: none;
+    padding-left: 2em;
+    padding-top: 22px;
+}
+
+a {
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Homepage.html"><img src="schoollogo.png" id="logo"></a></li>
+                <li><a href="Homepage.html" id="item1"> Home </a></li>
+                <!-- <li> <a href="aboutus.html" id="item2">About Coding School </a></li> -->
+                <li> <a href="ourteam.html" id="item3">Our Team</a></li>
+                <li id="item4"> <a href="infrastructure.html">Infrastructure </a></li>
+
+                <li id="item5"> <a href="Sign-Up.html" target="_blank">Admission 2023</a></li>
+                <li id="item5"> <a href="achivements.html" target="_blank">Achivements</a></li>
+                <li id="item5"> <a href="UGC.html" target="_blank">Scholarship Portal</a></li>
+                <li> <a href="contactus.html" id="item6" target="_blank">Contact Us </a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

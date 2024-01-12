@@ -1,0 +1,124 @@
+html {
+    min-height: 100%;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Prosto One', cursive;
+}
+
+header::before {
+    background-image: url(campus1.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    content: "";
+    min-height: 120rem;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0.6;
+}
+
+nav::before {
+    background-color: black;
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    content: "";
+    opacity: 0.8;
+}
+nav{
+    z-index: 2;
+}
+#marque{
+    color: white;
+    background-color: black;
+    position: relative;
+    top: 64px;
+    opacity: 0.9;
+    font-size: 24px;
+    border: 1px solid white;
+    font-style: italic;
+    z-index: -1;
+}
+#logo {
+    height: 2em;
+    border: 1px none;
+    border-radius: 10%;
+    position: relative;
+    top: -6px;
+}
+
+header>nav>ul {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+}
+
+header>nav>ul>li {
+    list-style: none;
+    padding-left: 2em;
+    padding-top: 22px;
+}
+
+a {
+    text-decoration: none;
+}
+.container{
+    
+    display: grid;
+    justify-content: end;
+    text-align: justify;
+    grid-template-columns: 450px 900px; 
+    grid-template-rows: 500px 500px 500px 280px;
+}
+.images{
+    height: 430px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 50%;
+    z-index: -1;
+     /* shape-outside: circle(); */
+     /* shape-outside: ellipse(150px 300px at 50% 50%); */
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#logo:hover {
+    outline: 2px solid white;
+}
+.rtejustify{
+    font-size: 18px;
+    margin: 100px 10px;
+    color: #000000;
+    text-shadow: 3px 2px 3px white;
+    
+}
+
+strong{
+    color: black;
+}
+.footer{
+    text-shadow: 3px 2px 2px black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 18px;
+}
+#insane{
+    height: 40px;
+    width: 40px;
+    border: 1px none;
+    border-radius: 50%;
+}
